@@ -1,5 +1,6 @@
 # Stress-test-CP
-This tool generates `infinite` test cases and runs it against the brute force and optimized code (the one to be submit on Online Judge). It will stop when the outputs of both the code differs, or if the optimized code is correct, you may `manually stop` after n test cases as per your wish.
+
+This tool generates <b>infinite</b> test cases and runs it against the brute force and optimized code (the one to be submit on Online Judge). It will stop when the outputs of both the code differs, or if the optimized code is correct, you may <b>manually stop</b> after n test cases as per your wish.
 
 ## Requirements
 1. g++ compiler `(here g++10 with c++17)`
@@ -13,7 +14,7 @@ This tool generates `infinite` test cases and runs it against the brute force an
 2. In the terminal shell, navigate to the directory of this folder.
 3. Add your brute force solution (which gives 100% correct result) in the `brute.cpp` file.
 4. Add your solution against which you want to check the testcases, in the `yo.cpp` file.
-5. (Only once during setup) Open the script.sh file in the text editor, and update your compilation commands as per your convenience and version for all the three cpp files on lines `15, 16 and 17` namely brute.cpp, yo.cpp and generator.cpp.
+5. (Only once during setup) Open the script.sh file in the text editor, and update your compilation commands as per your convenience and version for all the three cpp files on lines `15, 16 and 17` namely `brute.cpp, yo.cpp and generator.cpp`.
    
    My cpp compilation command -
    
@@ -28,9 +29,9 @@ This tool generates `infinite` test cases and runs it against the brute force an
    `$ sh script.sh`               (Everytime you run the script)
    
 8. Let it script run for atleast 200 test cases. If you encounter a Wrong Answer, the test case which gave the wrong answer will also be displayed, or you may see it in the file `in`. 
-9. If your code runs successfully for more than 200 test cases, and you wish to `stop the process`, do
+9. If your code runs successfully for more than 200 test cases, and you wish to <b>stop the process</b>, do
 
-   `command + C` (for macOS)
-   
-   `control + C` (for Linux/Ubuntu) 
+   `control + C`  
 10. Finally, you may submit the solution of `yo.cpp` after you feel confident about it. :D
+
+### MADE by SANJIT ANAND
