@@ -28,20 +28,6 @@ void Array_(int n, int l, int r){
 	cout << "\n";
 }
 
-
-// generated permution of n -> 1 to n
-void generate_permuatation(int n){
-	set<int> s;
-	while(s.size()!=n){
-		int x = rand(1, n);
-		if(s.find(x) == s.end()){
-			s.insert(x);
-			cout << x << " ";
-		}
-	}
-	cout << "\n";
-}
-
 int main(int argc, char* argv[]){
 	srand(atoi(argv[1]));
 	int n = rand(1, 10);
