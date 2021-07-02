@@ -28,10 +28,13 @@ This tool generates <b>infinite</b> test cases and runs it against the brute for
    
    `$ sh script.sh`               (Everytime you run the script)
    
-8. Let it script run for atleast 200 test cases. If you encounter a Wrong Answer, the test case which gave the wrong answer will also be displayed, or you may see it in the file `in`. 
-9. If your code runs successfully for more than 200 test cases, and you wish to <b>stop the process</b>, do
-
-   `control + C`  
+8. Let it script run for atleast 100 test cases. If you encounter a Wrong Answer, the test case which gave the wrong answer will also be displayed, or you may see it in the file `in`. 
+   <img src = "media/Screenshot 2021-07-02 at 3.21.00 PM.png" alt = "WA">
+10. If your code runs successfully for more than 100 test cases, and you wish to <b>stop the process</b>, use
+   
+    `control + C`  
+    
+    <img src = "media/Screenshot 2021-07-02 at 3.22.05 PM.png" alt = "AC">
 10. Finally, you may submit the solution of `yo.cpp` after you feel confident about it. :D
 
 ### MADE by SANJIT ANAND
